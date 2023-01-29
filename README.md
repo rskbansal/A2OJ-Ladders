@@ -121,15 +121,20 @@ Where $n_0$ is the number of configurations with pay-off $\le0$. Combining the a
 ### Proof by Induction
 $n_0$ is a function of $n$.  
 For $n=1$, there is only **one** possible configuration satisfying the condition $\langle R,B\rangle$.
-Also, -->
+Also,
+
 $$
 n_0(1)=\binom{2}{1}-\binom{2}{2} \\
 n_0(1)=2-1 \\
 n_0 = 1
 $$
+
 $\therefore n_0(1)$ is true.  
 Assume $n_0(n)$ is true.
-$$n_0(n)=\binom{2n}{n}-\binom{2n}{n+1}$$
+
+$$
+n_0(n)=\binom{2n}{n}-\binom{2n}{n+1}
+$$
 
 For every configuration with pay-off $\le0$, on moving from left to right, $count(R) \le count(B)$. Also the configurations shall always end with a $R$ else the pay-off will be $>0$.
 <br><br>
@@ -191,6 +196,7 @@ f_k=\frac{F_k}{\binom{2n}{n}}=\frac{\binom{2n}{n+k}}{\binom{2n}{n}} \quad ; \qua
 $$
 
 Now,
+
 $$
 \frac{f_k}{f_{k-1}}=\frac{\binom{2n}{n+k}}{\binom{2n}{n+k-1}}=\frac{n-k+1}{n+k}
 $$
@@ -199,13 +205,16 @@ $$
 
 # Q2.8
 Using expression obtained in Q2.7,
+
 $$
 \frac{f_{k+1}}{f_k}=\frac{n-\left(k+1\right)+1}{n+k+1} \\
 \frac{f_{k+1}}{f_k}=\frac{n-k}{n+k+1} \\
 f_{k+1}=f_k\left(\frac{n-k}{n+k+1} \right)\quad ; \quad k\le26 \\
 f_{27}=0
 $$
+
 Let the random variable $X$ denote the maximum pay-off of any configuration & $P(X=k)$ denote the probabiltity of maximum pay-off being $k$. Then,
+
 $$
 P(X=k)=f_k-f_{k+1} \\
 P(X=k)=f_k-f_k \left(\frac{n-k}{n+k+1}\right) \\
