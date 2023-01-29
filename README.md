@@ -106,8 +106,8 @@ int main() {
 ```
 
 
-<!-- # Q2.3
-Assuming that we play optimally & generate the maximum pay-off for each permutation, the pay-off will always be $\ge0$. -->
+# Q2.3
+Assuming that we play optimally & generate the maximum pay-off for each permutation, the pay-off will always be $\ge0$.
 
 
 
