@@ -24,12 +24,12 @@ $(x,y)$ lies on this line.
 $d_e$ is the Euclidean distance of this point from the origin $(0,0)$
 
 $$
-\therefore E(d_e^2)=\int_{0}^{2} \int_{0}^{2-x} (x^2+y^2)dydx \\
-E(d_e^2)=\int_{0}^{2} \left[x^2y+\frac{y^3}{3}\right]\Biggr|_{0}^{2-x}dx \\
-E(d_e^2)=\int_{0}^{2} \left(\left[x^2(2-x)+\frac{(2-x)^3}{3}\right]-0\right)dx \\
-E(d_e^2)=\left[\frac{2x^3}{3}-\frac{x^4}{4}-\frac{(2-x)^4}{12}\right]\Biggr|_{0}^{2}dx \\
-E(d_e^2)=\left[\frac{16}{3}-\frac{16}{4}-0\right]-\left[0-0-\frac{16}{12}\right] \\
-E(d_e^2)=\frac{16}{3}-4+\frac{4}{3} \\
+\therefore E(d_e^2)=\int_{0}^{2} \int_{0}^{2-x} (x^2+y^2)dydx \\  
+E(d_e^2)=\int_{0}^{2} \left[x^2y+\frac{y^3}{3}\right]\Biggr|_{0}^{2-x}dx \\  
+E(d_e^2)=\int_{0}^{2} \left(\left[x^2(2-x)+\frac{(2-x)^3}{3}\right]-0\right)dx \\  
+E(d_e^2)=\left[\frac{2x^3}{3}-\frac{x^4}{4}-\frac{(2-x)^4}{12}\right]\Biggr|_{0}^{2}dx \\  
+E(d_e^2)=\left[\frac{16}{3}-\frac{16}{4}-0\right]-\left[0-0-\frac{16}{12}\right] \\  
+E(d_e^2)=\frac{16}{3}-4+\frac{4}{3} \\  
 E(d_e^2)=\frac{8}{3}
 $$
 
