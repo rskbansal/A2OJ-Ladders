@@ -10,7 +10,7 @@ $\therefore x>0$ & $y>0 $
 No matter in which direction person moves Manhattan distance will always increase.
 Let us assume person is at $(0,0)$ initially & moves in either x direction by 1 unit or in y direction by 1 unit, then Manhattan distance will increase by 1 unit. Similiarly, if person moves in x direction by 0.5 units or in y direction by 0.5 units, then Manhattan distance will increase by 0.5 units and so on...
 
-$\therefore$ Manhattan distance( $d_m$ ) =  $\displaystyle \lim_{n \to \infty}\sum_{i=1}^{n} \frac{1}{2^{i}} = \frac{1}{1-0.5}=2$
+$\therefore$ Manhattan distance( $ d_m $ ) =  $\displaystyle \lim_{n \to \infty}\sum_{i=1}^{n} \frac{1}{2^{i}} = \frac{1}{1-0.5}=2$
 
 As the Manhattan distance always converges to 2, the expected value $ E\left(d_m\right)$ will also be $2$.
 
