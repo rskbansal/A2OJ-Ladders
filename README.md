@@ -176,12 +176,15 @@ plt.show()
 # Q2.7
 $n_k$ denotes the number of deck configurations such that the maximum payoff is $\le k$.
 Let $F_k$ denotes the number of deck configurations such that the maximum payoff is $\ge k$. Then clearly,
+
 $$
 F_k = Total\space configurations - n_{k-1} \\
 F_k = \binom{2n}{n} - \left(\binom{2n}{n}-\binom{2n}{n+k-1+1}\right) \\
 F_k = \binom{2n}{n+k}\quad;\quad k\ge   1
 $$
+
 $f_k$ denotes the probability that the maximum payoff is $\ge k$. Then clearly,
+
 $$
 f_0=1 \\
 f_k=\frac{F_k}{\binom{2n}{n}}=\frac{\binom{2n}{n+k}}{\binom{2n}{n}} \quad ; \quad k\ge 1
